@@ -1,0 +1,8 @@
+1) make our own travis and edit the .travis.yml file
+2) edit bower.json (or make our own)
+3) edit package.json (the nodejs file)
+
+
+How to run db:
+go to mongo/bin
+run sudo ./mongod

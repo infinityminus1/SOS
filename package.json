@@ -1,12 +1,12 @@
 {
-  "name": "robobetty-alpha",
+  "name": "iReceptionist",
   "version": "1.0.0",
-  "description": "base app for cse112",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bluejay112/robobetty-apha"
+    "url": "https://github.com/SpotOnSoftwareInc/iReceptionist"
   },
-  "author": "Eduardo Aguilar",
+  "author": "Kurt Lang",
   "scripts": {
     "postinstall": "bower install && gulp build:prod",
     "start": "node server/app.js",
