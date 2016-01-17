@@ -1,8 +1,18 @@
 1) make our own travis and edit the .travis.yml file
 2) edit bower.json (or make our own)
 3) edit package.json (the nodejs file)
+4) connect mongolab to heroku ---> https://devcenter.heroku.com/articles/getting-started-with-nodejs#provision-a-database
 
 
 How to run db:
 go to mongo/bin
 run sudo ./mongod
+
+MongoLab
+type
+heroku config | grep MONGOLAB_URI
+to see the mongolab db url (its an environment variable)
+
+Theres a heroku repo and git repo.
+To change stuff on heroku use this command after committing local changes
+git push heroku master
