@@ -1,7 +1,7 @@
 angular.module('dashboard')
   .factory('socket', function ($rootScope) {
     if (IS_MOBILE) {
-        var socket = io.connect('https://blue-jay.herokuapp.com');
+        var socket = io.connect('https://cse112-sos.herokuapp.com');
     } else {
         var socket = io.connect();
     }
